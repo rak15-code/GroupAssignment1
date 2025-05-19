@@ -70,12 +70,4 @@ public class ChatManager {
             System.out.println("null");
 
         }
-
-        public static void main(String[] args) {
-            SinglyLinkedList list = new SinglyLinkedList();
-            list.addFirst("Hello"); // Safe to write now
-            list.addLast("Meow");
-            list.removeFirst();
-            list.print();
-        }
     }
