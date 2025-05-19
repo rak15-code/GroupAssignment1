@@ -74,10 +74,10 @@ public class ChatManager {
             // TODO: implement
             Node point = head;
             while (point != null) {
-                System.out.print(point.data + " = ");
+                System.out.print("[" + point.data + "] ");
                 point = point.next;
             }
-            System.out.println("null");
+            System.out.println(", [null]");
 
         }
 
